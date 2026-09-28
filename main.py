@@ -195,7 +195,7 @@ async def handle_button_click(update: Update, context: ContextTypes.DEFAULT_TYPE
 
 
 def main():
-    app = ApplicationBuilder().token(BOT_TOKEN).build()
+        app = ApplicationBuilder().token(BOT_TOKEN).concurrent_updates(True).build()
 
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CallbackQueryHandler(handle_button_click))
@@ -204,4 +204,6 @@ def main():
     app.run_polling(drop_pending_updates=True, stop_signals=None)
 
 if __name__ == "__main__":
+    keep_alive()
     main()
+
