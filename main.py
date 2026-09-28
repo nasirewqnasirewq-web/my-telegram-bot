@@ -194,8 +194,8 @@ def main():
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CallbackQueryHandler(handle_button_click))
 
-    print("Bot starting...")
-    app.run_polling()
+  print("Bot starting...")
+    app.run_polling(drop_pending_updates=True, stop_signals=None)
 
 if __name__ == "__main__":
     main()
