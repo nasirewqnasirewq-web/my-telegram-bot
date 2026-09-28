@@ -117,7 +117,7 @@ CHANNELS = [
     },
     {
         "name": "Channel 15 ↗",
-        "url": "https://t.me/alltypeLootOffcial",
+        "url": "https://t.me/+2imobbWsE4tlMzdl",
         "id": "@alltypeLootOffcial",
     },
 ]
