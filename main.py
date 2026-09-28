@@ -112,7 +112,7 @@ CHANNELS = [
     },
     {
         "name": "Channel 14 ↗",
-        "url": "https://t.me/alltypeLootOffcial",
+        "url": "https://t.me/+veShX5mhpaZhZjg1",
         "id": "@alltypeLootOffcial",
     },
     {
