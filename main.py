@@ -178,7 +178,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
   message_text = (
       "📢 *Account Linked Successfully!*\n\n"
-      "Welcome to the *Diwa~Ace Official Bot!* 🎉\n\n"
+      "Welcome to the *Yono~777 Official Bot!* 🎉\n\n"
       "📢 Join all 20 official channels below to unlock 1 free lucky draw(s).\n\n"
       "🎁 Your rewards will be delivered directly to your in-game mailbox.\n\n"
       f"🆔 *Your UID:* `{user_id}`"
@@ -257,7 +257,7 @@ async def handle_button_click(
           "🎉 *Lucky Draw Completed!*\n\n"
           f"🎟️ *Reference:* {ref_number}\n"
           f"🆔 *UID:* `{user_id}`\n"
-          "🎁 *Reward:* Welcome to Diwa~Ace Robot\n\n"
+          "🎁 *Reward:* Welcome to Yono~777 Robot\n\n"
           f"🎰 *Remaining Chances:* {context.user_data['chances']}\n\n"
           "Your reward has been sent to your in-game *Inbox*. Open *Diwa~Ace*"
           " to claim it."
