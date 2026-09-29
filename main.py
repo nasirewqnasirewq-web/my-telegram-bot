@@ -87,12 +87,12 @@ CHANNELS = [
     },
     {
         "name": "Channel 9 ↗",
-        "url": "https://t.me/+Zuiimo1yU-05MDU9",
+        "url": "https://t.me/+J9VI_IfFW8EwMjk1",
         "id": "@alltypeLootOffcial",
     },
     {
         "name": "Channel 10 ↗",
-        "url": "https://t.me/+IMzkzI4O75FkODE9",
+        "url": "https://t.me/+fvvk9TMBgzY0OTg9",
         "id": "@alltypeLootOffcial",
     },
     {
@@ -122,17 +122,17 @@ CHANNELS = [
     },
     {
         "name": "Channel 16 ↗",
-        "url": "https://t.me/alltypeLootOffcial",
+        "url": "https://t.me/+Zuiimo1yU-05MDU9",
         "id": "@alltypeLootOffcial",
     },
     {
         "name": "Channel 17 ↗",
-        "url": "https://t.me/alltypeLootOffcial",
+        "url": "https://t.me/+IMzkzI4O75FkODE9",
         "id": "@alltypeLootOffcial",
     },
     {
         "name": "Channel 18 ↗",
-        "url": "https://t.me/alltypeLootOffcial",
+        "url": "https://t.me/+wd45Voto2HdjYjBl",
         "id": "@alltypeLootOffcial",
     },
     {
