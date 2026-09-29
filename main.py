@@ -43,7 +43,7 @@ def keep_alive():
   thread.start()
 
 
-# ================= 15 Channels List =================
+# ================= 20 Channels List =================
 CHANNELS = [
     {
         "name": "1 ↗100₹",
@@ -120,6 +120,31 @@ CHANNELS = [
         "url": "https://t.me/+2imobbWsE4tlMzdl",
         "id": "@alltypeLootOffcial",
     },
+    {
+        "name": "Channel 16 ↗",
+        "url": "https://t.me/alltypeLootOffcial",
+        "id": "@alltypeLootOffcial",
+    },
+    {
+        "name": "Channel 17 ↗",
+        "url": "https://t.me/alltypeLootOffcial",
+        "id": "@alltypeLootOffcial",
+    },
+    {
+        "name": "Channel 18 ↗",
+        "url": "https://t.me/alltypeLootOffcial",
+        "id": "@alltypeLootOffcial",
+    },
+    {
+        "name": "Channel 19 ↗",
+        "url": "https://t.me/alltypeLootOffcial",
+        "id": "@alltypeLootOffcial",
+    },
+    {
+        "name": "Channel 20 ↗",
+        "url": "https://t.me/alltypeLootOffcial",
+        "id": "@alltypeLootOffcial",
+    },
 ]
 
 
@@ -127,7 +152,7 @@ CHANNELS = [
 async def is_user_joined_all(
     user_id: int, context: ContextTypes.DEFAULT_TYPE
 ) -> bool:
-  """15 channels ko ek sath (parallel) check karta hai zero delay ke sath."""
+  """20 channels ko ek sath (parallel) check karta hai zero delay ke sath."""
 
   async def check_channel(ch):
     try:
@@ -154,7 +179,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
   message_text = (
       "📢 *Account Linked Successfully!*\n\n"
       "Welcome to the *Diwa~Ace Official Bot!* 🎉\n\n"
-      "📢 Join all 15 official channels below to unlock 1 free lucky draw(s).\n\n"
+      "📢 Join all 20 official channels below to unlock 1 free lucky draw(s).\n\n"
       "🎁 Your rewards will be delivered directly to your in-game mailbox.\n\n"
       f"🆔 *Your UID:* `{user_id}`"
   )
